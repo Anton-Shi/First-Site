@@ -5,5 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(background.jpg);
+  /* background-image: url(background.jpg); */
+}
+ul {
+  padding: 0px;
+}
+.head {
+  display: flex;
+  flex-direction: column;   
+}    
+.head__nav {
+ display: flex;
+
+  }
+  .head__nav_note {
+    display: flex;
+    margin-left: 20px;
+    list-style-type: none;
+  }
+.head__nav_note_link {
+  margin: 10px;
+  font-size: 25px;
+}
+.head__nav_img {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+.test {
+  margin: auto;
+  max-width: 1150px;
 }
